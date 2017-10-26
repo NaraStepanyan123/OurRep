@@ -1,0 +1,35 @@
+####clone and branch cration
+git clone ssh://kristine.poghosyan@gerrit.arm.synisys.com:29418/btc-mis
+cd btc-mis/
+#####araji angam masteri vra e linum. ete mastery datark e, petq e gnal (dev) branch
+git checkout dev
+#####nor branchi steghcum
+git checkout -b branchi_anun
+
+####ete popoxutyunner chkan
+git checkout dev
+git pull --rebase
+git checkout branchi_anun
+git rebase dev
+####gitk hramanov yntacik dirqy kareli e tesnel
+
+####repozitoria create anelu hamar
+git init 
+####asnavnoy repozitoria create anelu hamar 
+git init --bare 
+
+#### popoxutyunnery uxarkum enq masterchi gnum der staging a linum 
+git add all
+git add <directory name>
+git add <file name>
+
+#### commite anelu hamar
+git commit -m <inch vor message description>
+
+### inch statusum enq imanalu hamr 
+git status
+
+###jamanakavor pahuma filery (kisat toxac urish gorc anelu hamar stash enq anum pahuma)
+git stash
+
+asdasdasd ASSASASAS
